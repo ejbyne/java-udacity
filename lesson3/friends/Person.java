@@ -3,10 +3,13 @@ public class Person
   private String name;
   private String friends;
 
-  public Person(String aName)
+  public Person(String aName, String pictureFile, int xCoord, int yCoord)
   {
     name = aName;
     friends = "";
+    Picture picture = new Picture(pictureFile);
+    picture.translate(xCoord, yCoord);
+    picture.draw();
   }
 
   public String getFriends()
