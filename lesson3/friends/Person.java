@@ -1,3 +1,8 @@
+/**
+ *   
+ *   Models a person who makes and unmakes friends
+ *
+ */
 public class Person
 {
   private String name;
@@ -5,20 +10,32 @@ public class Person
   private int x;
   private int y;
 
-  public Person(String aName, String pictureFile, int xCoord, int yCoord)
+  public Person(String name, String pictureFile, int x, int y)
   {
-    name = aName;
+    this.name = name;
     friends = "";
     Picture picture = new Picture(pictureFile);
+    this.x = x;
+    this.y = y;
     picture.translate(xCoord, yCoord);
     picture.draw();
-    x = xCoord;
-    y = yCoord;
   }
 
   public String getFriends()
   {
     return friends;
+  }
+
+  public void makeMutualFriend(Person friend)
+  {
+    this.addFriend(friend);
+    friend.addFriend(this);
+  }
+
+  public void mutualUnfriend(Person nonFriend)
+  {
+    this.unfriend(nonFriend);
+    nonFriend.unfriend(this);
   }
 
   public void addFriend(Person friend)
