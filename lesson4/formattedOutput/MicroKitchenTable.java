@@ -8,14 +8,10 @@ public class MicroKitchenTable
         int cayCookiesPerDay = 1;
         double cayCerealPerDay = 0;
         String cayName = "Cay";
+        String rowFormat = "%8d|%8.2f|%s\n";
         System.out.println("cookies | cereal | name");
         System.out.println("------------------------");
-
-        // TODO: Print entries for Sara
-        // Be sure to line up the entries in the columns using printf
-        // Print floating-point numbers with two digits after the decimal point
-
-        // TODO: Print entries for Cay
-
+        System.out.printf(rowFormat, saraCookiesPerDay, saraCerealPerDay, saraName);
+        System.out.printf(rowFormat, cayCookiesPerDay, cayCerealPerDay, cayName);
     }
 }
