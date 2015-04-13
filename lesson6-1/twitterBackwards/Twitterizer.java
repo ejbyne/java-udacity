@@ -25,7 +25,7 @@ public class Twitterizer
     public String reverse(String post)
     {
        String reversePost = "";
-       for (int i = post.length() -1; i >= 0; i--)
+       for (int i = post.length()-1; i >= 0; i--)
        {
             reversePost = reversePost + post.substring(i, i-1);
        }
