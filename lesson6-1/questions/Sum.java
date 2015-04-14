@@ -12,13 +12,10 @@ public class Sum
     */
    public int sum(int n)
    {
-      int sum = 0;
       int evenNumber = 2;
-      while (evenNumber <= n)
+      while(evenNumber + 2 < n)
       {
-          sum += evenNumber;
           evenNumber += 2;
       }
-      return sum;
    }
 }
