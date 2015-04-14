@@ -1,5 +1,3 @@
-// Bluej project: lesson6/average
-
 import java.util.Scanner;
 // Write a program that helps a user compute their average time
 // for sprinting 100 meters.
