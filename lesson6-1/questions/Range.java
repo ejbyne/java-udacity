@@ -13,10 +13,10 @@ public class Range
      */
     public boolean inRange(int value)
     {
-    if (value >= 0 && value <= 100)
-    {
-        return true;
-    }
-    return false;
+        if (value >= 0 && value <= 100)
+        {
+            return true;
+        }
+        return false;
     }
 }
