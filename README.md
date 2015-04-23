@@ -12,3 +12,4 @@ This repo contains the code I am working on as part of Udacity's online [Introdu
 - Lesson 4 - Fundamental Data Types
 - Lesson 5 - Decisions
 - Lesson 6 - Loops
+- Lesson 7 - Arrays
