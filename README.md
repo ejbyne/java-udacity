@@ -13,3 +13,4 @@ This repo contains the code I am working on as part of Udacity's online [Introdu
 - Lesson 5 - Decisions
 - Lesson 6 - Loops
 - Lesson 7 - Arrays
+- Lesson 8 - More Classes
