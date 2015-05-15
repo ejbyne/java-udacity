@@ -1,8 +1,10 @@
-# Udacity Introduction to Java
+# Udacity online course - Introduction to Java Programming
 
 ## Summary
 
-This repo contains the code I am working on as part of Udacity's online [Introduction to Java](https://www.udacity.com/course/intro-to-java-programming--cs046) course.
+This repo contains the code I worked on as part of Udacity's online [Introduction to Java Programming](https://www.udacity.com/course/intro-to-java-programming--cs046) course, built by San Jose State University.
+
+It was a really useful course for getting to grips with the language and Java OOP. The lesson topics are as follows:
 
 ## Lessons
 
@@ -14,3 +16,4 @@ This repo contains the code I am working on as part of Udacity's online [Introdu
 - Lesson 6 - Loops
 - Lesson 7 - Arrays
 - Lesson 8 - More Classes
+- Lesson 9 - Interfaces and Inheritance
